@@ -5,5 +5,5 @@ python:
   - "3.8"
   - "nightly"
 scripts:
-  - python -m doctests counter.py
+  - python -m doctest counter.py
   - pytest
